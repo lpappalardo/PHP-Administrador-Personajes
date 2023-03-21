@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
+.tituloPrincipal {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #07102d;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.encabezado {
+    background: #07102d;
+    padding: 1em 0px;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-left: 50px;
+}
+
+nav ul li a{
+	font-family: sans-serif;
+	font-size: 1rem;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav ul li a:hover{
+	color: #c2c4cd;	
+}
+
+/* Formulario */
+
+.tituloForm {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #07102d;
+    margin-top: 0.5em;
+}
+
+.contenedor {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.formulario {
+	width: 50%;
+    background: #c2c4cd;
+	margin: 1.5em auto;
+	padding: 1.5em 2.5em;
+    border-radius: 4px;
+}
+
+.elemForm {
+    display: inline-block;
+    width: 100%;
+}
+
+.labelForm {
+	font-weight: bold;
+	font-size: 1.4rem;
+    color: #07102d;
+    display: block;
+}
+
+.inputForm {
+	font-family: sans-serif;
+	border: none;
+    height: 2em;
+    padding: 4px;
+	margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 4px;
+	width: 100%;
+}
+
+.textareaForm {
+    font-family: sans-serif;
+    border: none;
+    height: 6.25em;
+    padding: 4px;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+    resize: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.enviar {
+	background-color: #07102d;
+    color: white;
+	height: 2.5em;
+	cursor: pointer;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.captcha {
+    display: flex;
+    margin: 20px auto 20px auto;
+}
+
+.estado {
+    margin: 12px;
+}
+
+/* Ver */
+
+.personaje {
+    background-color: #c2c4cd;
+    color: #07102d;
+    padding: 1em 1.5em 2em 1.5em;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    width: 50%;
+    margin: 1.5em auto;
+}
+
+.personaje h3 {
+    margin-bottom: 0.8em;
+}
+
+.personaje img {
+    margin-bottom: 1.2em;
+}
+
+.personaje p {
+    margin-bottom: 2em;
+}
+
+/* Boton */
+
+.btn {
+    padding: 1em 1.5em;
+    background: #07102d;
+    cursor: pointer;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Aviso */
+
+.confirmacion {
+    color: #07102d;
+    font-size: 1.4rem;
+    font-weight: 900;
+    padding: 1.2em;
+    background-color: #c2c4cd;
+    border-radius: 4px;
+    width: 30%;
+    margin: 1.5em auto;
+    text-align: center;
+}
+
+/* Comentario */
+
+.comentario {
+    font-size: 1rem;
+    padding: 1em;
+    background-color: #c2c4cd;
+    border-radius: 4px;
+    width: 80%;
+    margin: 1.5em auto;
+    text-align: center; 
+}
