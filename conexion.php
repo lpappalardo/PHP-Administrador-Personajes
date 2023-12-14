@@ -1,4 +1,4 @@
 <?php
 
 $conexion_db = mysqli_connect("localhost", "root", "",
-"phpintermedio") or exit ("No se pudo conectar");
+"id20190917_lpappa_db") or exit ("No se pudo conectar");
